@@ -1,4 +1,5 @@
 import React from 'react'
+import {List} from "./list_comp";
 
 class ContactComp extends React.Component {
 
@@ -32,6 +33,12 @@ class ContactComp extends React.Component {
                         555.555.5555
                     </li>
                 </ul>
+
+                <List type={'Guitar Player'}>
+                    <li>Rhandy Road's</li>
+                    <li>Zack Wilde</li>
+                </List>
+
             </div>);
 
         let login = (
